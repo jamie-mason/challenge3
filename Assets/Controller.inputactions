@@ -1,0 +1,100 @@
+{
+    "name": "Controller",
+    "maps": [
+        {
+            "name": "ActionMap",
+            "id": "16fc4426-4f41-49a2-828c-7b7fbea4f9c7",
+            "actions": [
+                {
+                    "name": "Dodge",
+                    "type": "Button",
+                    "id": "b9b3878f-81cc-40ba-80d8-027bfd663fd6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LightAttack",
+                    "type": "Button",
+                    "id": "662024e1-5616-4787-9e2e-69a2cdeabef0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HeavyAttack",
+                    "type": "Button",
+                    "id": "50fd37ca-f3ba-4991-a7cd-2d2d1f964c2a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Vault",
+                    "type": "Button",
+                    "id": "f78e91eb-d165-400e-aab7-6ccbc8f42328",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bc416755-1005-4e3c-b528-de9295073f6d",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Xbox Controller",
+                    "action": "Dodge",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d77b6f0c-2864-463c-9725-115628b599a6",
+                    "path": "<XInputController>/rightShoulder",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Xbox Controller",
+                    "action": "LightAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "07e72125-4b63-405c-9db5-8805b5a41c48",
+                    "path": "<XInputController>/rightTrigger",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HeavyAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "061afefc-2864-43fa-89a6-e49c6eaca575",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Xbox Controller",
+                    "action": "Vault",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Xbox Controller",
+            "bindingGroup": "Xbox Controller",
+            "devices": []
+        }
+    ]
+}
